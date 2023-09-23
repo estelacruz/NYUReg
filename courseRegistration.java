@@ -1,3 +1,4 @@
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,9 +12,9 @@ public class courseRegistration {
 	static courseMng nyuFileCourses = new courseMng ();
 	static Scanner userInput = new Scanner(System.in);
 	public static void main(String[] args) throws IOException {	
-	
-		System.out.println("Welcome to Estela's Course Registration: NYU Edition");
-		System.out.println("---------------------------------------------");
+		System.out.println("--------------------------------------------------------------------");
+		System.out.println("\nWelcome to Estela's NYUReg: Course Registration System");
+		System.out.println("--------------------------------------------------------------------");
 		//read file
 		readFileCourses();
 		//display menu 
@@ -28,7 +29,7 @@ public class courseRegistration {
 		int numOfClasses = 0;
 		try	{
 			BufferedReader buffy = new BufferedReader(new FileReader(userFile));
-			System.out.println("...Uploading All Courses From File..."); 
+			//System.out.println("...Uploading All Courses From File..."); 
 			String classInfo = buffy.readLine();
 			while(classInfo!= null) {
 				numOfClasses += 1; // line is not null, so count class
@@ -53,8 +54,8 @@ public class courseRegistration {
 			System.out.println("File Not Found!");
 			System.exit(0); //end prog
 		}
-		System.out.println("Complete! A total of " + numOfClasses + " NYU courses were found in 'Courses' file.");
-		System.out.println("-----------------------------------------------------------------");
+		//System.out.println("Complete! A total of " + numOfClasses + " NYU courses were found in 'Courses' file.");
+		//System.out.println("-----------------------------------------------------------------");
 		// all courses were uploaded
 
 	}
