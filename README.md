@@ -1,5 +1,6 @@
 # NYUReg: Course Registration System  &nbsp; <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
 
+This is a course registration system implemented in Java using an object-oriented programming framework (OOP). 
 
 # Functionality 
 <img width="659" alt="Screen Shot 2023-09-23 at 3 03 09 AM" src="https://github.com/estelacruz/NYUReg/assets/79770461/b95249ef-9ee2-4223-9ae0-91b5bea03d18">
@@ -17,12 +18,10 @@
 6. Courses can be sorted by the number of students registered, and high-volume courses (with 30+ registered students) can be displayed.
 
 7. The program can write the results of displaying high-volume courses to a new text file.
+---
 
-
-
-# Motivation  
-
-This is a course registration system implemented in Java using an object-oriented programming framework. NYUReg integrates aspects of Java's Four Pillars of Object-Oriented Programming (OOP):
+# Integrating Aspects of Java's Four Pillars of OOP
+---
 
 # Encapsulation
 
@@ -54,12 +53,14 @@ Inheritance allows you to create a new class (a subclass or child class) that in
 
 In NYUReg, the courseMng and studentclass classes are separate and do not inherit from each other or from a common superclass so  there isn't explicit usage of inheritence. Instead, they have a composition relationship, where the courseMng class contains instances of studentclass objects (has-a relationship).
 
+---
 
 # Project Highlights
-
 
 1. Seamless Course Management: This project simplifies the management of critical data. Users/students can take advantage of course operations, allowing you to effortlessly add, edit, display, search, and delete courses. 
 
 2. Discovery through Sorting: Students can gain insights quickly by being able to sort courses based on student enrollment numbers.
 
  3. High-Volume Course Recognition: This system identifies courses with 30 or more students to identify high-demand courses.
+
+
