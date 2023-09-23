@@ -1,6 +1,8 @@
 # NYUReg: Course Registration System in Java
 
-# Functionality: 
+
+# Functionality 
+<img width="659" alt="Screen Shot 2023-09-23 at 3 03 09 AM" src="https://github.com/estelacruz/NYUReg/assets/79770461/b95249ef-9ee2-4223-9ae0-91b5bea03d18">
 
 1. The program starts by reading course data from a file named "courses" and populates an ArrayList of course objects.
 
